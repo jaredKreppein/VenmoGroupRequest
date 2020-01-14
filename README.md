@@ -16,11 +16,15 @@ send requests using a different csv file:
 
 send requests that will write a new csv if Venmo's request limit is reached
     $ VenmoGroupRequest 5 'party' -write
+    
+    
+#example.csv:
+a template for the csv file format. First column is first name, second column is last name, and third column is the venmo username (without the '@' symbol).
 
 
-CSV_Splitter:
+#CSV_Splitter:
 a small command line tool to split apart large csv files. Useful when csv files are larger than Venmo's 50 requests per day limit
 
 
-spreadsheet_scripts.gs:
+#spreadsheet_scripts.gs:
 allows a google spreadsheet to parse a gmail account and update based on Venmo email notifications
