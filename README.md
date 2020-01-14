@@ -16,3 +16,11 @@ send requests using a different csv file:
 
 send requests that will write a new csv if Venmo's request limit is reached
     $ VenmoGroupRequest 5 'party' -write
+
+
+CSV_Splitter:
+a small command line tool to split apart large csv files. Useful when csv files are larger than Venmo's 50 requests per day limit
+
+
+spreadsheet_scripts.gs:
+allows a google spreadsheet to parse a gmail account and update based on Venmo email notifications
