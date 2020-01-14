@@ -2,8 +2,10 @@
 Version 1.0.0
 2019 Jared Kreppein
 
+
 A small command line tool to send Venmo requests to a every user in a csv file.
 Requires the Venmo module (https://pypi.org/project/venmo) - Zach Hsi 2017.
+
 
 USAGE:
 send requests from default csv file:
